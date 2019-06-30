@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif; /*шрифт для всех элементов внутри body - sans-serif*/
+}
+h1, h2 {
+    color: grey; /*цвет текста коричневый*/
+}
+h1 {
+    border-bottom: 1px solid black; /*нижняя граница для заголовка 1-ого уровня
+    толщиной 1 пиксел сплошная черная*/
+}
+p {
+    color: maroon; /*цвет текста коричневый*/
+}
+p.greentea { /*правила для абзаца класса "greentea"*/
+    color: green;
+}
+p.raspberry { /*правила для абзаца класса "raspberry"*/
+    color: blue;
+}
+p.blueberry { /*правила для абзаца класса "blueberry"*/
+    color: purple;
+}
+/*em {
+    font-family: serif;
+}*/ /*использование отдельного стиля для фрагмента внутри текста - плохой тон*/
