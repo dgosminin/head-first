@@ -1,0 +1,35 @@
+body {
+    font-size: small; /*размер шрифта*/
+    font-family: Verdana, Helvetica, Arial, sans-serif; /*задаем шрифты*/
+    line-height: 1.6em; /*задаем междустрочный интервал*/
+}
+
+h1, h2 {
+    color: #007e7e; /*задаем цвет заголовков*/
+}
+
+h1 {
+    font-size: 150%; /*задаем размер шрифта для заголовка 1-ого уровня*/
+}
+
+h2 {
+    font-size: 130%; /*задаем размер шрифта для заголовка 2-ого уровня*/
+}
+
+#guarantee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #444444;
+    line-height: 1.9em;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
