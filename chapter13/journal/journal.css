@@ -1,0 +1,29 @@
+@font-face {/*вводим в код веб-шрифт*/
+    font-family: "Emblema One"; /*даем назавание веб-шрифту, чтобы использовать его в коде*/
+    src: url("EmblemaOne-Regular.woff"), /*задаем ссылки на шрифты*/
+         url("EmblemaOne-Regular.ttf"),
+         url("EmblemaOne-Regular.eot"),
+         url("EmblemaOne-Regular.svg");
+    }
+
+body {/**/
+    font-family: Verdana, Geneva, Arial,sans-serif; /*определяем шрифты и семейство, которые будут использоваться для отображения страницы*/
+    font-size: small; /*задаем размер шрифта для всей страницы*/
+}
+h1, h2 {
+    color: #cc6600; /*задаем цыет заголовков*/
+    border-bottom: thin dotted #888888;
+}
+h1 {
+    font-family: "Emblema One", sans-serif; /*используем веб-шрифт для заголовка*/
+    font-size: 220%;/*определяем размер от body для заголовка*/
+}
+
+h2 {
+    font-size: 130%; /*определяем размер от body для заголовка*/
+    font-weight: normal; /*"жирность" текста*/
+}
+
+blockquote {
+    font-style: italic; /*задаем курсив для элемента*/
+}
