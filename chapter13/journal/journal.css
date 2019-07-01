@@ -10,10 +10,12 @@ body {/**/
     font-family: Verdana, Geneva, Arial,sans-serif; /*определяем шрифты и семейство, которые будут использоваться для отображения страницы*/
     font-size: small; /*задаем размер шрифта для всей страницы*/
 }
+
 h1, h2 {
-    color: #cc6600; /*задаем цыет заголовков*/
+    color: #cc6600; /*задаем цвет заголовков*/
     border-bottom: thin dotted #888888;
 }
+
 h1 {
     font-family: "Emblema One", sans-serif; /*используем веб-шрифт для заголовка*/
     font-size: 220%;/*определяем размер от body для заголовка*/
@@ -26,4 +28,49 @@ h2 {
 
 blockquote {
     font-style: italic; /*задаем курсив для элемента*/
+}
+
+table {
+    margin-left: 20px; /*Добавляем левое поле*/
+    margin-right: 20px;/*Добавляем правое поле*/
+    border: thin solid black;/*Добавляем добавляем тонкую черную границу*/
+    caption-side: bottom;/*Смещаем заголовок таблицы вниз*/
+    border-collapse: collapse; /*объединение границ ячеек*/
+}
+
+table table th {
+    background-color: white; /*цвет фона ложенной таблицы*/
+
+}
+
+td, th {
+    border: thin dotted grey; /*точечная граница серого цвета*/
+    padding: 5px; /*отступы для ячеек*/
+}
+
+th {
+    background-color: #cc6600;
+}
+
+.center {
+    text-align: center; /*выравнивание текста в ячейках по центру*/
+}
+
+.right {
+    text-align: right; /*выравнивание текста в ячейках по правому краю*/
+}
+
+.cellcolor {
+    background-color: #fcba7a;
+}
+
+caption {
+    font-style: italic; /*курсивный шриф заголовка*/
+    padding-top: 8px; /*отступ сверху для заголовка*/
+}
+
+li {
+    list-style-image: url(images/backpack.gif);
+    padding-top: 5px;
+    margin-left: 20px;
 }
